@@ -1,6 +1,5 @@
 // Service layer untuk handle business logic
 
-const prisma = require("../db");
 const { findProducts, findProductById, insertProduct, deleteProduct, updateProduct } = require("./product.repository");
 
 const getAllProducts = async () => {
